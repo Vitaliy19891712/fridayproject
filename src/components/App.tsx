@@ -12,13 +12,13 @@ export const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path="/login/" element={<LogIn />} />
-        <Route path="/registration/" element={<Registration />} />
-        <Route path="/profile/" element={<Profile />} />
-        <Route path="/error/" element={<ErrorPage />} />
-        <Route path="/recovery/" element={<RecoveryPassword />} />
-        <Route path="/newpass/" element={<NewPassword />} />
-        <Route path="/test/" element={<TestPage />} />
+        <Route path="/fridayproject/login/" element={<LogIn />} />
+        <Route path="/fridayproject/registration/" element={<Registration />} />
+        <Route path="/fridayproject/profile/" element={<Profile />} />
+        <Route path="/fridayproject/error/" element={<ErrorPage />} />
+        <Route path="/fridayproject/recovery/" element={<RecoveryPassword />} />
+        <Route path="/fridayproject/newpass/" element={<NewPassword />} />
+        <Route path="/fridayproject/test/" element={<TestPage />} />
       </Routes>
     </div>
   );

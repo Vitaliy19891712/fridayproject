@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { ErrorPage } from "./pages/Login/ErrorPage";
-import { NewPassword } from "./pages/Login/NewPassword";
-import { Profile } from "./pages/Login/Profile";
-import { RecoveryPassword } from "./pages/Login/RecoveryPassword";
-import { Registration } from "./pages/Login/Registration";
-import { TestPage } from "./pages/Login/TestPage";
+import { ErrorPage } from "./pages/ErrorPage/ErrorPage";
+import { NewPassword } from "./pages/NewPassword/NewPassword";
+import { Profile } from "./pages/Profile/Profile";
+import { RecoveryPassword } from "./pages/RecoveryPassword/RecoveryPassword";
+import { Registration } from "./pages/Registration/Registration";
+import { TestPage } from "./pages/TestPage/TestPage";
 import { LogIn } from "./pages/Login/LogIn";
 
 export const App = () => {
